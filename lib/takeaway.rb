@@ -1,13 +1,15 @@
 class Takeaway
 
-  MENU = { 'rat kebab' => 5,
-                  'gooey spider surprise' => 8,
-                  'bogey burger' => 11,
-                  'crispy bat wings' => 3,
-                  'cat milk lassi' => 2 }
+  MENU = { :rat_kebab => 5,
+    :tarantula_fries => 4,
+    :bogey_burger => 11,
+    :crispy_bat_wings => 3,
+    :catseye_bubble_tea => 2 }
 
   def menu
     MENU
   end
+
+
 
 end
