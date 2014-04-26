@@ -5,7 +5,7 @@ class Order
     :bogey_burger => 11,
     :crispy_bat_wings => 3,
     :strong_french_gallwasp => 1,
-    :I_CAN_HAZ_CHEEZBURGER => 11 }
+    :CHEEZBURGER => 11 }
 
   attr_reader :list, :expected_price
 
