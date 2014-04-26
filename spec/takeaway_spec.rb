@@ -29,7 +29,14 @@ describe Takeaway do
     expect{bogeybar.validate(bad_maths_order)}.to raise_error "Wrong price!"
   end
 
+  it 'can submit a valid order' do
+  end
 
+  it 'can calculate a delivery time' do
+  end
+
+  it 'can send a text' do
+  end
 
 
 end

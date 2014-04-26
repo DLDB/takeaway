@@ -12,14 +12,4 @@ describe Order do
   it 'calculates expected price' do
     expect(order.expected_price).to eq 15
   end
-
-  it 'can submit an order' do
-  end
-
-  it 'can calculate a delivery time' do
-  end
-
-  it 'can send a text' do
-  end
-  
 end
